@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="15" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-14T00:21:47 IST" name="Suite" finished-at="2022-04-14T00:22:25 IST" duration-ms="37891">
+    <groups>
+    </groups>
+    <test started-at="2022-04-14T00:21:47 IST" name="Test" finished-at="2022-04-14T00:22:25 IST" duration-ms="37891">
+      <class name="com.qc.pom.testcases.POMTest">
+        <test-method is-config="true" signature="doSetup()[pri:0, instance:com.qc.pom.testcases.POMTest@fa4c865]" started-at="2022-04-14T00:21:41 IST" name="doSetup" finished-at="2022-04-14T00:21:47 IST" duration-ms="5685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doSetup -->
+        <test-method signature="doLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qc.pom.testcases.POMTest@fa4c865]" started-at="2022-04-14T00:21:47 IST" name="doLogin" data-provider="readLogindata" finished-at="2022-04-14T00:21:48 IST" duration-ms="662" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[both are empty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[both empty error msg should be display]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="Setwait()[pri:0, instance:com.qc.pom.testcases.POMTest@fa4c865]" started-at="2022-04-14T00:21:48 IST" name="Setwait" finished-at="2022-04-14T00:21:50 IST" duration-ms="2015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setwait -->
+        <test-method signature="doLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qc.pom.testcases.POMTest@fa4c865]" started-at="2022-04-14T00:21:50 IST" name="doLogin" data-provider="readLogindata" finished-at="2022-04-14T00:21:50 IST" duration-ms="482" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email id is empty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[empty email error msg should be display]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="Setwait()[pri:0, instance:com.qc.pom.testcases.POMTest@fa4c865]" started-at="2022-04-14T00:21:50 IST" name="Setwait" finished-at="2022-04-14T00:21:52 IST" duration-ms="2013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setwait -->
+        <test-method signature="doLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qc.pom.testcases.POMTest@fa4c865]" started-at="2022-04-14T00:21:52 IST" name="doLogin" data-provider="readLogindata" finished-at="2022-04-14T00:21:53 IST" duration-ms="612" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[password is empty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[queuecodes@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[password empty eror msg should be display]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="Setwait()[pri:0, instance:com.qc.pom.testcases.POMTest@fa4c865]" started-at="2022-04-14T00:21:53 IST" name="Setwait" finished-at="2022-04-14T00:21:55 IST" duration-ms="2010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setwait -->
+        <test-method signature="doLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qc.pom.testcases.POMTest@fa4c865]" started-at="2022-04-14T00:21:55 IST" name="doLogin" data-provider="readLogindata" finished-at="2022-04-14T00:21:55 IST" duration-ms="406" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email id is invalid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[queuecodes]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[invalid email error msg should be display]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="Setwait()[pri:0, instance:com.qc.pom.testcases.POMTest@fa4c865]" started-at="2022-04-14T00:21:55 IST" name="Setwait" finished-at="2022-04-14T00:21:57 IST" duration-ms="2012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setwait -->
+        <test-method signature="doLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qc.pom.testcases.POMTest@fa4c865]" started-at="2022-04-14T00:21:57 IST" name="doLogin" data-provider="readLogindata" finished-at="2022-04-14T00:21:58 IST" duration-ms="662" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[password is invalid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[queuecodes@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[invlid password error msg should be display]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="Setwait()[pri:0, instance:com.qc.pom.testcases.POMTest@fa4c865]" started-at="2022-04-14T00:21:58 IST" name="Setwait" finished-at="2022-04-14T00:22:00 IST" duration-ms="2006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setwait -->
+        <test-method signature="doLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qc.pom.testcases.POMTest@fa4c865]" started-at="2022-04-14T00:22:00 IST" name="doLogin" data-provider="readLogindata" finished-at="2022-04-14T00:22:01 IST" duration-ms="483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[both are invalid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[queuecodes@gmail]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[both invalid error msg should be display]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="Setwait()[pri:0, instance:com.qc.pom.testcases.POMTest@fa4c865]" started-at="2022-04-14T00:22:01 IST" name="Setwait" finished-at="2022-04-14T00:22:03 IST" duration-ms="2002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setwait -->
+        <test-method signature="doLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qc.pom.testcases.POMTest@fa4c865]" started-at="2022-04-14T00:22:03 IST" name="doLogin" data-provider="readLogindata" finished-at="2022-04-14T00:22:05 IST" duration-ms="2146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[both are valid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[queuecodes@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[user should be on Dashboard page]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="Setwait()[pri:0, instance:com.qc.pom.testcases.POMTest@fa4c865]" started-at="2022-04-14T00:22:05 IST" name="Setwait" finished-at="2022-04-14T00:22:07 IST" duration-ms="2016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setwait -->
+        <test-method signature="doRegister(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qc.pom.testcases.POMTest@fa4c865]" started-at="2022-04-14T00:22:07 IST" name="doRegister" data-provider="Registerdata" finished-at="2022-04-14T00:22:08 IST" duration-ms="1244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[All fields are empty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegister -->
+        <test-method is-config="true" signature="Setwait()[pri:0, instance:com.qc.pom.testcases.POMTest@fa4c865]" started-at="2022-04-14T00:22:08 IST" name="Setwait" finished-at="2022-04-14T00:22:10 IST" duration-ms="2014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setwait -->
+        <test-method signature="doRegister(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qc.pom.testcases.POMTest@fa4c865]" started-at="2022-04-14T00:22:10 IST" name="doRegister" data-provider="Registerdata" finished-at="2022-04-14T00:22:11 IST" duration-ms="913" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[name is empty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[91454254]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[queue@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegister -->
+        <test-method is-config="true" signature="Setwait()[pri:0, instance:com.qc.pom.testcases.POMTest@fa4c865]" started-at="2022-04-14T00:22:11 IST" name="Setwait" finished-at="2022-04-14T00:22:13 IST" duration-ms="2002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setwait -->
+        <test-method signature="doRegister(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qc.pom.testcases.POMTest@fa4c865]" started-at="2022-04-14T00:22:13 IST" name="doRegister" data-provider="Registerdata" finished-at="2022-04-14T00:22:14 IST" duration-ms="867" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mobile is empty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[queueu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[queue@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegister -->
+        <test-method is-config="true" signature="Setwait()[pri:0, instance:com.qc.pom.testcases.POMTest@fa4c865]" started-at="2022-04-14T00:22:14 IST" name="Setwait" finished-at="2022-04-14T00:22:16 IST" duration-ms="2007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setwait -->
+        <test-method signature="doRegister(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qc.pom.testcases.POMTest@fa4c865]" started-at="2022-04-14T00:22:16 IST" name="doRegister" data-provider="Registerdata" finished-at="2022-04-14T00:22:17 IST" duration-ms="800" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email is empty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[queueu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[91454254]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegister -->
+        <test-method is-config="true" signature="Setwait()[pri:0, instance:com.qc.pom.testcases.POMTest@fa4c865]" started-at="2022-04-14T00:22:17 IST" name="Setwait" finished-at="2022-04-14T00:22:19 IST" duration-ms="2002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setwait -->
+        <test-method signature="doRegister(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qc.pom.testcases.POMTest@fa4c865]" started-at="2022-04-14T00:22:19 IST" name="doRegister" data-provider="Registerdata" finished-at="2022-04-14T00:22:20 IST" duration-ms="863" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[password is empty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[queueu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[91454254]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[queeu@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegister -->
+        <test-method is-config="true" signature="Setwait()[pri:0, instance:com.qc.pom.testcases.POMTest@fa4c865]" started-at="2022-04-14T00:22:20 IST" name="Setwait" finished-at="2022-04-14T00:22:22 IST" duration-ms="2014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setwait -->
+        <test-method signature="doRegister(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qc.pom.testcases.POMTest@fa4c865]" started-at="2022-04-14T00:22:22 IST" name="doRegister" data-provider="Registerdata" finished-at="2022-04-14T00:22:23 IST" duration-ms="927" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[All fields are valid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[queueu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[91454254]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[queeu@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegister -->
+        <test-method is-config="true" signature="Setwait()[pri:0, instance:com.qc.pom.testcases.POMTest@fa4c865]" started-at="2022-04-14T00:22:23 IST" name="Setwait" finished-at="2022-04-14T00:22:25 IST" duration-ms="2010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setwait -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qc.pom.testcases.POMTest@fa4c865]" started-at="2022-04-14T00:22:25 IST" name="tearDown" finished-at="2022-04-14T00:22:26 IST" duration-ms="355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qc.pom.testcases.POMTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
